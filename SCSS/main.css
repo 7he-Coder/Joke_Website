@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 html {
@@ -14,7 +15,7 @@ html {
   background-color: #2a004d;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-direction: row;
 }
 .container #cont {
@@ -22,12 +23,21 @@ html {
   height: 80vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-direction: column;
   background: #e5e2ec;
 }
 .container #cont h1 {
   font-size: 5rem;
+  margin-top: 3rem;
+}
+.container #cont #joke {
+  font-size: 2.5rem;
+  color: #2a004d;
+  font-weight: 500;
+  text-transform: inherit;
+  padding: 0 25rem;
+  text-align: center;
 }
 
 @keyframes color_anim {
@@ -42,6 +52,7 @@ html {
   }
 }
 .cta {
+  margin-bottom: 15rem;
   display: flex;
   padding: 11px 33px;
   text-decoration: none;
